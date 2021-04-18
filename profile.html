@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>BestFilm!</title>
+</head>
+
+<body>
+    <div class="page">
+        <!-- navbar -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">BestFilms</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">О сайте</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Жанры
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Документальный</a></li>
+                                    <li><a class="dropdown-item" href="#">Фэнтези</a></li>
+                                    <li><a class="dropdown-item" href="#">Боевик</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Весь список жанров</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profile.html">Профиль</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Поиск фильма"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Поиск</button>
+                            <a style="margin-left:10px" href="autorization.html"><button type="button"
+                                    class="btn btn-secondary btn-lg autoriz-nav"></button></a>
+
+                        </form>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--end navbar -->
+        <!-- main -->
+        <section class="main__inner2">
+            <h1 class="text3 profile-header">Профиль</h1>
+
+            <div class="profile-wrapper">
+                <div class="row">
+                    <div class="col-3 profile-short-info">
+                        <div class="profile-photo"></div>
+                        <div class="profile-name text4">Имя: <i style="text-decoration: underline;">Швидкий Олег</i>
+                        </div>
+                        <div class="profile-other-ifo">
+                            <div class="birthday text4">Дата рождения: 03.03.2001</div>
+                            <div class="reg-date text4">Дата регистрации: 09.03.2021</div>
+                            <div class="rating text4">Рейтинг: 100/100 (Начальник☻)</div>
+                        </div>
+                    </div>
+
+                    <div class="col-9 profile-full-info">
+                        <div class="profile-user-description text4">
+                            <h3>О себе:</h3>
+                            <div class="about-myself">Студент 3 курса Киевского Политехнического Института им. Игоря
+                                Сикорского. Обучаюсь на <i>факультете прикладной математики(ФПМ)</i>, специальность -
+                                компьютерная инженерия(123). <i style="text-decoration: underline; color:gold">Бывший
+                                    керри игрок команды "Багровый Фантомас"!</i></div>
+                        </div>
+                        <div class="dates text4">
+                            <div class="birthday">Дата рождения: 03.03.2001</div>
+                            <div class="reg-date">Дата регистрации: 09.03.2021</div>
+                        </div>
+                        <div class="film-collection text4">
+                            <h3>Любимые фильмы:</h3>
+                            <ul style="text-decoration: underline;">
+                                <li>Интерстеллар</li>
+                                <li>Наши матери, наши отцы</li>
+                                <li>Гарри Поттер</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- end main -->
+        <!-- footer -->
+        <footer>
+            <div class="footer__wrapper">
+                <div class="footer__sm-links">
+                    <a href="https://t.me/oleg_shv">
+                        <div class="footer__sm-links-tg"></div>
+                    </a>
+                    <a href="https://www.instagram.com/ollleg_miami/">
+                        <div class="footer__sm-links-inst"></div>
+                    </a>
+                </div>
+                <div class="divider"></div>
+                <div class="footer__info">
+                    <div class="footer__info-item"><a href="">Сотрудничество</a></div>
+                    <div class="footer__info-item"><a href="">Реклама</a></div>
+                    <div class="footer__info-item"><a href="">Вакансии</a></div>
+                    <div class="footer__info-item"><a href="">E-mail</a></div>
+                </div>
+                <div class="footer__copyriting">© 2021 Shvidkiy Oleg KV-83</div>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </div>
+
+</body>

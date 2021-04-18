@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>BestFilm!</title>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">BestFilms</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">О сайте</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Жанры
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Документальный</a></li>
+                                    <li><a class="dropdown-item" href="#">Фэнтези</a></li>
+                                    <li><a class="dropdown-item" href="#">Боевик</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Весь список жанров</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profile.html">Профиль</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Поиск фильма"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Поиск</button>
+                            <a style="margin-left:10px" href="autorization.html"><button type="button"
+                                    class="btn btn-secondary btn-lg autoriz-nav"></button></a>
+
+                        </form>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="main">
+            <div class="main__inner">
+                <div class="main__carousel" id="carousel-1">
+                    <div id="carouselExampleControls" class="carousel slide" data-interval="false"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active " data-interval="1000">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Довод</h5>
+                                                    <p class="card-text size" id="card-2">После теракта в киевском
+                                                        оперном театре агент ЦРУ
+                                                        объединяется с британской разведкой, чтобы противостоять
+                                                        русскому олигарху, который сколотил
+                                                        состояние на торговле оружием. Для этого агенты используют
+                                                        инверсию времени — технологию
+                                                        будущего, позволяющую времени идти вспять.
+
+                                                    </p>
+                                                    <h5 class="card-text">Жанр: Боевик, Фантастика </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.6/10 </h5>
+                                                    <a href="#" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Зависнуть в Палм-Спрингс</h5>
+                                                    <p class="card-text size" id="card-3">Бездельник и сестра невесты
+                                                        застревают в праздничном Дне
+                                                        сурка. Ромком с Энди Сэмбергом, покоривший критиков</p>
+                                                    <h5 class="card-text">Жанр: комедия, мелодрама, фантастика
+                                                    </h5>
+                                                    <h5 class="card-text">Рейтинг: 9.5/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/3.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Суд над чикагской семеркой</h5>
+                                                    <p class="card-text size" id="card-4">Чикаго, 1968 год. Демонстрация
+                                                        против войны во Вьетнаме
+                                                        вылилась в стычки с полицией. Семь участников беспорядков
+                                                        предстают пред судом по обвинениям
+                                                        в
+                                                        заговоре против американского правительства</p>
+                                                    <h5 class="card-text">Жанр: триллер, биография, драма, история </h5>
+                                                    <h5 class="card-text">Рейтинг: 9.5/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/4.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Маленькие женщины</h5>
+                                                    <p class="card-text size" id="card-5">История взросления четырёх
+                                                        непохожих друг на друга
+                                                        сестер.
+                                                        Где-то бушует Гражданская война, но проблемы, с которыми
+                                                        сталкиваются девушки, актуальны как
+                                                        никогда: первая любовь, горькое разочарование, томительная
+                                                        разлука и непростые поиски себя и
+                                                        своего места в жизни.</p>
+                                                    <h5 class="card-text">Жанр: драма, мелодрама </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.7/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-interval="1000">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/5.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Джентльмены</h5>
+                                                    <p class="card-text size" id="card-6">Успешное возвращение Гая Ричи
+                                                        к корням — острая и живая
+                                                        криминальная комедия с блестящим актерским составом</p>
+                                                    <h5 class="card-text">Жанр: криминал, комедия, боевик </h5>
+                                                    <h5 class="card-text">Рейтинг: 8.5/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/6.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Манк</h5>
+                                                    <p class="card-text size" id="card-7">1940 год. Манк — так называют
+                                                        его друзья — должен всего
+                                                        за
+                                                        три месяца написать для Уэллса сценарий. А лучше бы за два. Манк
+                                                        вспоминает последние годы,
+                                                        проведённые в Голливуде, и переносит опыт личного общения с
+                                                        воротилами бизнеса в сценарий.
+                                                    </p>
+                                                    <h5 class="card-text">Жанр: биография, драма </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.2/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/7.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Неогранённые алмазы</h5>
+                                                    <p class="card-text size" id="card-8">2012 год. Говард Ратнер
+                                                        владеет небольшим ювелирным
+                                                        магазином в Нью-Йорке. Являясь большим фанатом НБА, он жизни не
+                                                        мыслит без ставок на игры,
+                                                        поэтому находится по уши в долгах и постоянно скрывается от
+                                                        кредиторов.</p>
+                                                    <h5 class="card-text">Жанр:
+                                                        триллер, драма, криминал </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.1/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/8.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">1917</h5>
+                                                    <p class="card-text size" id="card-9">Военная драма Сэма Мендеса,
+                                                        снятая почти без монтажа.
+                                                        Три
+                                                        «Оскара», в том числе за работу оператора</p>
+                                                    <h5 class="card-text">Жанр: Боевик, Фантастика </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.9/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-interval="false">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/9.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Еще по одной</h5>
+                                                    <p class="card-text size" id="card-10">Друзья решают выпивать каждый
+                                                        день, чтобы стать
+                                                        счастливее.
+                                                        Философская алкодрама с Мадсом Миккельсеном</p>
+                                                    <h5 class="card-text">Жанр:
+                                                        драма, комедия </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.5/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/10.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Маяк</h5>
+                                                    <p class="card-text size" id="card-11">Роберт Паттинсон и Уиллем
+                                                        Дефо самоизолировались на
+                                                        острове, пытаясь сохранить жизнь и здравый рассудок</p>
+                                                    <h5 class="card-text">Жанр:
+                                                        ужасы, фэнтези, драма </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.1/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/11.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Побег из Шоушенка</h5>
+                                                    <p class="card-text size" id="card-12">Выдающаяся драма о силе
+                                                        таланта, важности дружбы,
+                                                        стремлении к свободе и Рите Хэйворт</p>
+                                                    <h5 class="card-text">Жанр:
+                                                        драма </h5>
+                                                    <h5 class="card-text">Рейтинг: 9.1/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/12.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Зеленая миля</h5>
+                                                    <p class="card-text size" id="card-13">В тюрьме для смертников
+                                                        появляется заключенный с
+                                                        божественным даром. Мистическая драма по роману Стивена Кинга
+                                                    </p>
+                                                    <h5 class="card-text">Жанр:
+                                                        фэнтези, драма, криминал, детектив </h5>
+                                                    <h5 class="card-text">Рейтинг: 9.1/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="main__carousel" id="carousel-2">
+                    <div id="carouselExampleControls2" class="carousel slide" data-interval="false"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active " data-interval="1000">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Довод</h5>
+                                                    <p class="card-text size" id="card-2">После теракта в киевском
+                                                        оперном театре агент ЦРУ
+                                                        объединяется с британской разведкой, чтобы противостоять
+                                                        русскому олигарху, который сколотил
+                                                        состояние на торговле оружием. Для этого агенты используют
+                                                        инверсию времени — технологию
+                                                        будущего, позволяющую времени идти вспять.
+
+                                                    </p>
+                                                    <h5 class="card-text">Жанр: Боевик, Фантастика </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.6/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Зависнуть в Палм-Спрингс</h5>
+                                                    <p class="card-text size" id="card-3">Бездельник и сестра невесты
+                                                        застревают в праздничном Дне
+                                                        сурка. Ромком с Энди Сэмбергом, покоривший критиков</p>
+                                                    <h5 class="card-text">Жанр: комедия, мелодрама, фантастика
+                                                    </h5>
+                                                    <h5 class="card-text">Рейтинг: 9.5/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/3.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Суд над чикагской семеркой</h5>
+                                                    <p class="card-text size" id="card-4">Чикаго, 1968 год. Демонстрация
+                                                        против войны во Вьетнаме
+                                                        вылилась в стычки с полицией. Семь участников беспорядков
+                                                        предстают пред судом по обвинениям
+                                                        в
+                                                        заговоре против американского правительства</p>
+                                                    <h5 class="card-text">Жанр: триллер, биография, драма, история </h5>
+                                                    <h5 class="card-text">Рейтинг: 9.5/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-interval="1000">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/5.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Джентльмены</h5>
+                                                    <p class="card-text size" id="card-6">Успешное возвращение Гая Ричи
+                                                        к корням — острая и живая
+                                                        криминальная комедия с блестящим актерским составом</p>
+                                                    <h5 class="card-text">Жанр: криминал, комедия, боевик </h5>
+                                                    <h5 class="card-text">Рейтинг: 8.5/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/6.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Манк</h5>
+                                                    <p class="card-text size" id="card-7">1940 год. Манк — так называют
+                                                        его друзья — должен всего
+                                                        за
+                                                        три месяца написать для Уэллса сценарий. А лучше бы за два. Манк
+                                                        вспоминает последние годы,
+                                                        проведённые в Голливуде, и переносит опыт личного общения с
+                                                        воротилами бизнеса в сценарий.
+                                                    </p>
+                                                    <h5 class="card-text">Жанр: биография, драма </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.2/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/7.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Неогранённые алмазы</h5>
+                                                    <p class="card-text size" id="card-8">2012 год. Говард Ратнер
+                                                        владеет небольшим ювелирным
+                                                        магазином в Нью-Йорке. Являясь большим фанатом НБА, он жизни не
+                                                        мыслит без ставок на игры,
+                                                        поэтому находится по уши в долгах и постоянно скрывается от
+                                                        кредиторов.</p>
+                                                    <h5 class="card-text">Жанр:
+                                                        триллер, драма, криминал </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.1/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-interval="false">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/9.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Еще по одной</h5>
+                                                    <p class="card-text size" id="card-10">Друзья решают выпивать каждый
+                                                        день, чтобы стать
+                                                        счастливее.
+                                                        Философская алкодрама с Мадсом Миккельсеном</p>
+                                                    <h5 class="card-text">Жанр:
+                                                        драма, комедия </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.5/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/10.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Маяк</h5>
+                                                    <p class="card-text size" id="card-11">Роберт Паттинсон и Уиллем
+                                                        Дефо самоизолировались на
+                                                        острове, пытаясь сохранить жизнь и здравый рассудок</p>
+                                                    <h5 class="card-text">Жанр:
+                                                        ужасы, фэнтези, драма </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.1/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/11.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Побег из Шоушенка</h5>
+                                                    <p class="card-text size" id="card-12">Выдающаяся драма о силе
+                                                        таланта, важности дружбы,
+                                                        стремлении к свободе и Рите Хэйворт</p>
+                                                    <h5 class="card-text">Жанр:
+                                                        драма </h5>
+                                                    <h5 class="card-text">Рейтинг: 9.1/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-interval="false">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/4.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Маленькие женщины</h5>
+                                                    <p class="card-text size" id="card-5">История взросления четырёх
+                                                        непохожих друг на друга
+                                                        сестер.
+                                                        Где-то бушует Гражданская война, но проблемы, с которыми
+                                                        сталкиваются девушки, актуальны как
+                                                        никогда: первая любовь, горькое разочарование, томительная
+                                                        разлука и непростые поиски себя и
+                                                        своего места в жизни.</p>
+                                                    <h5 class="card-text">Жанр: драма, мелодрама </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.7/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/8.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">1917</h5>
+                                                    <p class="card-text size" id="card-9">Военная драма Сэма Мендеса,
+                                                        снятая почти без монтажа.
+                                                        Три
+                                                        «Оскара», в том числе за работу оператора</p>
+                                                    <h5 class="card-text">Жанр: Боевик, Фантастика </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.9/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/12.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Зеленая миля</h5>
+                                                    <p class="card-text size" id="card-13">В тюрьме для смертников
+                                                        появляется заключенный с
+                                                        божественным даром. Мистическая драма по роману Стивена Кинга
+                                                    </p>
+                                                    <h5 class="card-text">Жанр:
+                                                        фэнтези, драма, криминал, детектив </h5>
+                                                    <h5 class="card-text">Рейтинг: 9.1/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="main__carousel" id="carousel-3">
+                    <div id="carouselExampleControls3" class="carousel slide" data-interval="false"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active " data-interval="false">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Довод</h5>
+                                                    <p class="card-text size" id="card-2">После теракта в киевском
+                                                        оперном театре агент ЦРУ
+                                                        объединяется с британской разведкой, чтобы противостоять
+                                                        русскому олигарху, который сколотил
+                                                        состояние на торговле оружием. Для этого агенты используют
+                                                        инверсию времени — технологию
+                                                        будущего, позволяющую времени идти вспять.
+
+                                                    </p>
+                                                    <h5 class="card-text">Жанр: Боевик, Фантастика </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.6/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/2.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Зависнуть в Палм-Спрингс</h5>
+                                                    <p class="card-text size" id="card-3">Бездельник и сестра невесты
+                                                        застревают в праздничном Дне
+                                                        сурка. Ромком с Энди Сэмбергом, покоривший критиков</p>
+                                                    <h5 class="card-text">Жанр: комедия, мелодрама, фантастика
+                                                    </h5>
+                                                    <h5 class="card-text">Рейтинг: 9.5/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-interval="false">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/5.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Джентльмены</h5>
+                                                    <p class="card-text size" id="card-6">Успешное возвращение Гая Ричи
+                                                        к корням — острая и живая
+                                                        криминальная комедия с блестящим актерским составом</p>
+                                                    <h5 class="card-text">Жанр: криминал, комедия, боевик </h5>
+                                                    <h5 class="card-text">Рейтинг: 8.5/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/6.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Манк</h5>
+                                                    <p class="card-text size" id="card-7">1940 год. Манк — так называют
+                                                        его друзья — должен всего
+                                                        за
+                                                        три месяца написать для Уэллса сценарий. А лучше бы за два. Манк
+                                                        вспоминает последние годы,
+                                                        проведённые в Голливуде, и переносит опыт личного общения с
+                                                        воротилами бизнеса в сценарий.
+                                                    </p>
+                                                    <h5 class="card-text">Жанр: биография, драма </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.2/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-interval="false">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/9.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Еще по одной</h5>
+                                                    <p class="card-text size" id="card-10">Друзья решают выпивать каждый
+                                                        день, чтобы стать
+                                                        счастливее.
+                                                        Философская алкодрама с Мадсом Миккельсеном</p>
+                                                    <h5 class="card-text">Жанр:
+                                                        драма, комедия </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.5/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/10.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Маяк</h5>
+                                                    <p class="card-text size" id="card-11">Роберт Паттинсон и Уиллем
+                                                        Дефо самоизолировались на
+                                                        острове, пытаясь сохранить жизнь и здравый рассудок</p>
+                                                    <h5 class="card-text">Жанр:
+                                                        ужасы, фэнтези, драма </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.1/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-interval="false">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/3.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Суд над чикагской семеркой</h5>
+                                                    <p class="card-text size" id="card-4">Чикаго, 1968 год. Демонстрация
+                                                        против войны во Вьетнаме
+                                                        вылилась в стычки с полицией. Семь участников беспорядков
+                                                        предстают пред судом по обвинениям
+                                                        в
+                                                        заговоре против американского правительства</p>
+                                                    <h5 class="card-text">Жанр: триллер, биография, драма, история </h5>
+                                                    <h5 class="card-text">Рейтинг: 9.5/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/4.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Маленькие женщины</h5>
+                                                    <p class="card-text size" id="card-5">История взросления четырёх
+                                                        непохожих друг на друга
+                                                        сестер.
+                                                        Где-то бушует Гражданская война, но проблемы, с которыми
+                                                        сталкиваются девушки, актуальны как
+                                                        никогда: первая любовь, горькое разочарование, томительная
+                                                        разлука и непростые поиски себя и
+                                                        своего места в жизни.</p>
+                                                    <h5 class="card-text">Жанр: драма, мелодрама </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.7/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-interval="false">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/7.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Неогранённые алмазы</h5>
+                                                    <p class="card-text size" id="card-8">2012 год. Говард Ратнер
+                                                        владеет небольшим ювелирным
+                                                        магазином в Нью-Йорке. Являясь большим фанатом НБА, он жизни не
+                                                        мыслит без ставок на игры,
+                                                        поэтому находится по уши в долгах и постоянно скрывается от
+                                                        кредиторов.</p>
+                                                    <h5 class="card-text">Жанр:
+                                                        триллер, драма, криминал </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.1/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/8.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">1917</h5>
+                                                    <p class="card-text size" id="card-9">Военная драма Сэма Мендеса,
+                                                        снятая почти без монтажа.
+                                                        Три
+                                                        «Оскара», в том числе за работу оператора</p>
+                                                    <h5 class="card-text">Жанр: Боевик, Фантастика </h5>
+                                                    <h5 class="card-text">Рейтинг: 7.9/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-interval="false">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/11.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Побег из Шоушенка</h5>
+                                                    <p class="card-text size" id="card-12">Выдающаяся драма о силе
+                                                        таланта, важности дружбы,
+                                                        стремлении к свободе и Рите Хэйворт</p>
+                                                    <h5 class="card-text">Жанр:
+                                                        драма </h5>
+                                                    <h5 class="card-text">Рейтинг: 9.1/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="img/12.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Зеленая миля</h5>
+                                                    <p class="card-text size" id="card-13">В тюрьме для смертников
+                                                        появляется заключенный с
+                                                        божественным даром. Мистическая драма по роману Стивена Кинга
+                                                    </p>
+                                                    <h5 class="card-text">Жанр:
+                                                        фэнтези, драма, криминал, детектив </h5>
+                                                    <h5 class="card-text">Рейтинг: 9.1/10 </h5>
+                                                    <a href="#" onclick="" class="btn btn-secondary">Подробнее</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="main__divider"></div>
+            <div class="main__inner2">
+                <div class="row align-items-start main__intro">
+                    <div class="col-9">
+                        <h1 class="main__intro-topic">Добро пожаловать!</h1>
+                        <p class="main__intro-text">На данном сайте люди могут дать оценку просмотренному фильму, а
+                            также обсудить или выбрать для просмотра из уже составлненных рейтингов.
+                            Все функции доступны только зарегестрированым пользователям. Рекомендуем пройти
+                            регистрацию или авториоваться, если уже имеете аккаунт. Cделать это можно на панели
+                            навигации.</p>
+                        <div class="main__intro-exception">"Better than KinoPoisk"</div>
+                    </div>
+                    <div class="col-3">
+                        <div class="main__intro-nav-news">
+                            <div class="main__intro-news">Cкоро в кино</div>
+                            <div class="main__intro-text2"><a href="https://www.kino.ru/film/98054"
+                                    class="main__intro-text2">Проклятие:
+                                    Обитель
+                                    смерти</a>
+                            </div>
+                            <div class="main__intro-text2"><a href="https://www.kino.ru/film/98058"
+                                    class="main__intro-text2">День
+                                    курка</a>
+                            </div>
+                            <div class="main__intro-text2"><a href="https://www.kino.ru/film/98059"
+                                    class="main__intro-text2">Скайлайн 3
+                                </a>
+                            </div>
+                            <div class="main__intro-text2"><a href="https://www.kino.ru/film/98060"
+                                    class="main__intro-text2">Вайолет
+                                    Эвергарден</a></div>
+                            <div class="main__intro-text2"><a href="https://www.kino.ru/film/98061"
+                                    class="main__intro-text2">Сэм:
+                                    Песочный
+                                    эльф</a></div>
+                            <div class="main__intro-text2"><a href="https://www.kino.ru/film/98062"
+                                    class="main__intro-text2">Гениальное
+                                    ограбление</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="poll">
+                    <div class="poll__wrapper">
+                        <h2 class="poll-topic">
+                            ГОЛОСОВАНИЕ
+                        </h2>
+                        <p class="poll-text">Здесь будет проводится еженедельное голосование за лучший фильм недели по
+                            версии
+                            пользователей. Если вы хотите поделится своей оценкой фильму с людьми или же просто не
+                            можете выбрать
+                            что
+                            посмотреть, то этот раздел для вас. </p>
+                        <div class="divider_black"></div>
+                        <div class="poll__content-wrapper">
+                            <h3 class="poll-winner">Победитель прошлой недели!</h3>
+                            <div class="poll-winner_photo-wrapper"><img src="./img/vopros.svg" alt="winner_photo"
+                                    class="poll-winner_photo"></div>
+
+                            <div class="poll-winner_description">
+                                <div class="poll-winner_description-about">Здесь будет информация о фильме: краткое
+                                    описание, жанр.</div>
+                                <div class="poll-winner_description-result">Здесь будут показаны результаты прошлого
+                                    голосования!</div>
+                            </div>
+                            <div class="divider_black"></div>
+                            <ul class="poll-list">
+
+
+
+                            </ul>
+                        </div>
+                        <div class="poll__buttons-wrapper"><button class="poll-audio">ГОЛОСОВАНИЕ</button>
+                            <button class="poll-audio">ПОМОГИТЕ</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer__wrapper">
+                <div class="footer__sm-links">
+                    <a href="https://t.me/oleg_shv">
+                        <div class="footer__sm-links-tg"></div>
+                    </a>
+                    <a href="https://www.instagram.com/ollleg_miami/">
+                        <div class="footer__sm-links-inst"></div>
+                    </a>
+                </div>
+                <div class="divider"></div>
+                <div class="footer__info">
+                    <div class="footer__info-item"><a href="">Сотрудничество</a></div>
+                    <div class="footer__info-item"><a href="">Реклама</a></div>
+                    <div class="footer__info-item"><a href="">Вакансии</a></div>
+                    <div class="footer__info-item"><a href="">E-mail</a></div>
+                </div>
+                <div class="footer__copyriting">© 2021 Shvidkiy Oleg KV-83</div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script type="module" src="js/mvc/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
